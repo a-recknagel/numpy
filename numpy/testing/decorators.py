@@ -10,6 +10,6 @@ import warnings
 # 2018-04-04, numpy 1.15.0
 warnings.warn("Importing from numpy.testing.decorators is deprecated, "
               "import from numpy.testing instead.",
-              DeprecationWarning, stacklevel=2)
+              DeprecationWarning)
 
 from ._private.decorators import *

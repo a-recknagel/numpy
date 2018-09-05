@@ -10,6 +10,6 @@ import warnings
 warnings.warn(("numpy.core.umath_tests is an internal NumPy "
                "module and should not be imported. It will "
                "be removed in a future NumPy release."),
-              category=DeprecationWarning, stacklevel=2)
+              category=DeprecationWarning)
 
 from ._umath_tests import *
